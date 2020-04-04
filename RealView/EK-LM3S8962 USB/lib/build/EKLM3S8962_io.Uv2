@@ -1,0 +1,243 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (EKLM3S8962_io), 0x0004 // Tools: 'ARM-ADS'
+
+Group (EIO)
+Group (Board)
+Group (Graphics)
+Group (Fonts)
+
+File 1,1,<..\eio\LM3Sxxxx_ADC.c><LM3Sxxxx_ADC.c>
+File 2,1,<..\board\src\rit-graphics.c><rit-graphics.c>
+File 2,1,<..\board\src\rit128x96x4.c><rit128x96x4.c>
+File 3,1,<..\board\src\grlib\string.c><string.c>
+File 3,1,<..\board\src\grlib\circle.c><circle.c>
+File 3,1,<..\board\src\grlib\context.c><context.c>
+File 3,1,<..\board\src\grlib\line.c><line.c>
+File 3,1,<..\board\src\grlib\rectangle.c><rectangle.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss48i.c><fontcmss48i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm12.c><fontcm12.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm12b.c><fontcm12b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm12i.c><fontcm12i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm14.c><fontcm14.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm14b.c><fontcm14b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm14i.c><fontcm14i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm16.c><fontcm16.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm16b.c><fontcm16b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm16i.c><fontcm16i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm18.c><fontcm18.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm18b.c><fontcm18b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm18i.c><fontcm18i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm20.c><fontcm20.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm20b.c><fontcm20b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm20i.c><fontcm20i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm22.c><fontcm22.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm22b.c><fontcm22b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm22i.c><fontcm22i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm24.c><fontcm24.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm24b.c><fontcm24b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm24i.c><fontcm24i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm26.c><fontcm26.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm26b.c><fontcm26b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm26i.c><fontcm26i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm28.c><fontcm28.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm28b.c><fontcm28b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm28i.c><fontcm28i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm30.c><fontcm30.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm30b.c><fontcm30b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm30i.c><fontcm30i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm32.c><fontcm32.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm32b.c><fontcm32b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm32i.c><fontcm32i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm34.c><fontcm34.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm34b.c><fontcm34b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm34i.c><fontcm34i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm36.c><fontcm36.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm36b.c><fontcm36b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm36i.c><fontcm36i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm38.c><fontcm38.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm38b.c><fontcm38b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm38i.c><fontcm38i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm40.c><fontcm40.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm40b.c><fontcm40b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm40i.c><fontcm40i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm42.c><fontcm42.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm42b.c><fontcm42b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm42i.c><fontcm42i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm44.c><fontcm44.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm44b.c><fontcm44b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm44i.c><fontcm44i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm46.c><fontcm46.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm46b.c><fontcm46b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm46i.c><fontcm46i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm48.c><fontcm48.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm48b.c><fontcm48b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcm48i.c><fontcm48i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc12.c><fontcmsc12.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc14.c><fontcmsc14.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc16.c><fontcmsc16.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc18.c><fontcmsc18.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc20.c><fontcmsc20.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc22.c><fontcmsc22.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc24.c><fontcmsc24.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc26.c><fontcmsc26.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc28.c><fontcmsc28.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc30.c><fontcmsc30.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc32.c><fontcmsc32.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc34.c><fontcmsc34.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc36.c><fontcmsc36.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc38.c><fontcmsc38.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc40.c><fontcmsc40.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc42.c><fontcmsc42.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc44.c><fontcmsc44.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc46.c><fontcmsc46.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmsc48.c><fontcmsc48.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss12.c><fontcmss12.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss12b.c><fontcmss12b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss12i.c><fontcmss12i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss14.c><fontcmss14.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss14b.c><fontcmss14b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss14i.c><fontcmss14i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss16.c><fontcmss16.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss16b.c><fontcmss16b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss16i.c><fontcmss16i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss18.c><fontcmss18.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss18b.c><fontcmss18b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss18i.c><fontcmss18i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss20.c><fontcmss20.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss20b.c><fontcmss20b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss20i.c><fontcmss20i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss22.c><fontcmss22.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss22b.c><fontcmss22b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss22i.c><fontcmss22i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss24.c><fontcmss24.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss24b.c><fontcmss24b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss24i.c><fontcmss24i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss26.c><fontcmss26.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss26b.c><fontcmss26b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss26i.c><fontcmss26i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss28.c><fontcmss28.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss28b.c><fontcmss28b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss28i.c><fontcmss28i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss30.c><fontcmss30.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss30b.c><fontcmss30b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss30i.c><fontcmss30i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss32.c><fontcmss32.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss32b.c><fontcmss32b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss32i.c><fontcmss32i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss34.c><fontcmss34.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss34b.c><fontcmss34b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss34i.c><fontcmss34i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss36.c><fontcmss36.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss36b.c><fontcmss36b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss36i.c><fontcmss36i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss38.c><fontcmss38.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss38b.c><fontcmss38b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss38i.c><fontcmss38i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss40.c><fontcmss40.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss40b.c><fontcmss40b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss40i.c><fontcmss40i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss42.c><fontcmss42.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss42b.c><fontcmss42b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss42i.c><fontcmss42i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss44.c><fontcmss44.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss44b.c><fontcmss44b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss44i.c><fontcmss44i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss46.c><fontcmss46.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss46b.c><fontcmss46b.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss46i.c><fontcmss46i.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss48.c><fontcmss48.c>
+File 4,1,<..\board\src\grlib\fonts\fontcmss48b.c><fontcmss48b.c>
+
+
+Options 1,0,0  // Target 'EKLM3S8962_io'
+ Device (LM3S8962)
+ Vendor (Luminary Micro)
+ Cpu (IRAM(0x20000000-0x2000FFFF) IROM(0-0x3FFFF) CLOCK(8000000) CPUTYPE("Cortex-M3"))
+ FlashUt ()
+ StupF ("STARTUP\Luminary\Startup.s" ("Luminary Startup Code"))
+ FlashDR (UL2CM3(-UU0101L5E -O14 -S0 -C0 -N00("ARM Cortex-M3") -D00(1BA00477) -L00(4) -FO7 -FD20000000 -FC800 -FN1 -FF0LM3S_256 -FS00 -FL040000))
+ DevID (4285)
+ Rgf (LM3Sxxx.H)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS ()
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿLuminary\)
+ OrgReg (ÿLuminary\)
+ TgStat=16
+ OutDir (.\Obj\)
+ OutName (EKLM3S8962_io)
+ GenApp=0
+ GenLib=1
+ GenHex=0
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ HexSel=1
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 1 <copylib.bat>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ CrunUsr 0 0 <>
+ CrunUsr 1 0 <>
+ SVCSID <>
+ GLFLAGS=1790
+ ADSFLGA { 243,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ACPUTYP ("Cortex-M3")
+ RVDEV ()
+ ADSTFLGA { 0,12,0,2,99,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSIRAM { 0,0,0,0,32,0,0,1,0 }
+ OCMADSIROM { 1,0,0,0,0,0,0,4,0 }
+ OCMADSXRAM { 0,0,0,0,0,0,0,0,0 }
+ OCR_RVCT { 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,1,0,0,0,0,0,0,0,0,0,0 }
+ RV_STAVEC ()
+ ADSCCFLG { 13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC ()
+ ADSCDEFN ()
+ ADSCUDEF ()
+ ADSCINCD ()
+ ADSASFLG { 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ ADSLDFG { 17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSLDTA (0x00000000)
+ ADSLDDA (0x20000000)
+ ADSLDSC ()
+ ADSLDIB ()
+ ADSLDIC ()
+ ADSLDMC ()
+ ADSLDIF ()
+ ADSLDDW ()
+  OPTDL (SARMCM3.DLL)()(DLM.DLL)(-pLM3S8962)(SARMCM3.DLL)()(TLM.DLL)(-pLM3S8962)
+  OPTDBG 48125,1,()()()()()()()()()() ()()()()
+ FLASH1 { 9,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0 }
+ FLASH2 (BIN\UL2CM3.DLL)
+ FLASH3 ()
+ FLASH4 ()
+EndOpt
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="project">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="project_name" type="xs:string"/>
+        <xs:element name="object" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+			  <xs:sequence>
+				<xs:element name="object_name" type="xs:string"/>
+				<xs:element name="code" type="xs:string"/>
+				<xs:element name="inc_data" type="xs:string"/>
+				<xs:element name="RO_data" type="xs:string"/>
+				<xs:element name="RW_data" type="xs:string"/>
+				<xs:element name="ZI_data" type="xs:string"/>
+				<xs:element name="debug" type="xs:string"/>
+            </xs:sequence>
+          </xs:complexType>
+		</xs:element>
+		<xs:element name="local_symbols">
+		  <xs:complexType>
+		    <xs:sequence>
+              <xs:element name="symbol" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+				  <xs:sequence>
+					<xs:element name="symbol_name" type="xs:string"/>
+					<xs:element name="symbol_size" type="xs:string"/>
+					<xs:element name="Ov_type" type="xs:string"/>
+					<xs:element name="object_name" type="xs:string"/>
+					<xs:element name="section" type="xs:string"/>
+				  </xs:sequence>
+			    </xs:complexType>
+			  </xs:element>
+		    </xs:sequence>
+		  </xs:complexType>
+        </xs:element>
+		<xs:element name="global_symbols">
+		  <xs:complexType>
+		    <xs:sequence>
+              <xs:element name="symbol" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+				  <xs:sequence>
+					<xs:element name="symbol_name" type="xs:string"/>
+					<xs:element name="symbol_size" type="xs:string"/>
+					<xs:element name="Ov_type" type="xs:string"/>
+					<xs:element name="object_name" type="xs:string"/>
+					<xs:element name="section" type="xs:string"/>
+				  </xs:sequence>
+			    </xs:complexType>
+			  </xs:element>
+		    </xs:sequence>
+		  </xs:complexType>
+        </xs:element>
+		<xs:element name="compiler_flags" type="xs:string"/>
+		<xs:element name="linker_flags" type="xs:string"/>
+		<xs:element name="max_heap" type="xs:string"/>
+		<xs:element name="max_stack" type="xs:string"/>
+		<xs:element name="execution_time" type="xs:string"/>
+	  </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

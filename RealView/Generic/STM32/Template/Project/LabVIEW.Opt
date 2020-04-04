@@ -1,0 +1,53 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (LabVIEW), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Target Startup),1,0,0
+GRPOPT 2,(Target Drivers),1,0,0
+
+OPTFFF 1,1,2,0,0,0,0,0,<..\System\Startup.s><Startup.s> 
+OPTFFF 1,2,1,0,0,0,0,0,<..\System\RTX_Config.c><RTX_Config.c> 
+OPTFFF 1,3,1,0,0,0,0,0,<..\System\Retarget.c><Retarget.c> 
+OPTFFF 1,4,1,0,0,0,0,0,<..\System\TargetInit.c><TargetInit.c> 
+OPTFFF 1,5,1,0,0,0,0,0,<..\System\File_Config.c><File_Config.c> 
+OPTFFF 2,6,1,0,0,0,0,0,<..\Drivers\Interrupt\ARM_irq.c><ARM_irq.c> 
+OPTFFF 2,7,1,0,0,0,0,0,<..\Drivers\RTClock\ARM_RTClock.c><ARM_RTClock.c> 
+OPTFFF 2,8,1,0,0,0,0,0,<..\Drivers\Serial\ARM_Serial.c><ARM_Serial.c> 
+OPTFFF 2,9,1,0,0,0,0,0,<..\Drivers\Ethernet\LM3S_EMAC.c><LM3S_EMAC.c> 
+OPTFFF 2,10,1,0,0,0,0,0,<..\Drivers\I2C\ARM_I2C.c><ARM_I2C.c> 
+OPTFFF 2,11,1,0,0,0,0,0,<..\Drivers\SPI\ARM_SPI.c><ARM_SPI.c> 
+OPTFFF 2,12,1,0,0,0,0,0,<..\Drivers\Pins\LM3S_Pins.c><LM3S_Pins.c> 
+OPTFFF 2,13,4,0,0,0,0,0,<..\Drivers\CAN\CAN_EK-LM3Sxxxx.lib><CAN_EK-LM3Sxxxx.lib> 
+OPTFFF 2,14,1,0,0,0,0,0,<..\Drivers\FlashFS\SPI_LM3S8962.c><SPI_LM3S8962.c> 
+OPTFFF 2,15,1,0,0,0,0,0,<..\Drivers\Peripheral Power\ARM_Periph_Power.c><ARM_Periph_Power.c> 
+OPTFFF 2,16,1,0,0,0,0,0,<..\Drivers\Profiling\profile_timer.c><profile_timer.c> 
+
+
+TARGOPT 1, (LabVIEW)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 255
+  OPTBL 0,(Data Sheet)<DATASHTS\Luminary\LM3S8962.PDF>
+  OPTDL (SARMCM3.DLL)()(DLM.DLL)(-pLM3S8962)(SARMCM3.DLL)()(TLM.DLL)(-pLM3S8962)
+  OPTDBG 48118,1,()()()()()()()()()(.\Target.ini) (BIN\UL2CM3.DLL)()()()
+  OPTKEY 0,(UL2CM3)(-UV0073AAE -O207 -S9 -C0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(0) -TO1 -TC50000000 -TP21 -TDS8027 -TDT0 -TDC1F -TIEFFFFFFFF -TIPF -FO23 -FD20000000 -FC800 -FN1 -FF0LM3S_256 -FS00 -FL040000)
+  OPTDF 0x2
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

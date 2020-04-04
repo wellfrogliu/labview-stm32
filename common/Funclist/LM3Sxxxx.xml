@@ -1,0 +1,190 @@
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Write_Port</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Write_Port( @i5(0), @i4(255), @i3(8), @i1(1), @i2(0) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Write_Port_Config</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Write_Port_Config( @i4(0), @i3(255), @i2(8), @i1(1) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Write_Pin</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Write_Pin( @i4(0), @i3(8), @i2(1), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Write_Pin_Config</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Write_Pin_Config( @i3(0), @i2(8), @i1(1) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Read_Port</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Read_Port( @i3(0), @i2(255), @i1(8), @o1(0) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Read_Port_Config</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Read_Port_Config( @i3(0), @i2(255), @i1(8) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Read_Pin</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Read_Pin( @i2(0), @i1(8), @o1(0) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_GPIO_Read_Pin_Config</VI Name>
+    <Function>@LM3Sxxxx_GPIO_Read_Pin_Config( @i2(0), @i1(8) );</Function>
+    <Feature>LM3Sxxxx_GPIO_Functions</Feature>
+</VI Override>
+
+<VI Override>
+    <VI Name>LM3Sxxxx_ADC_Read_VI</VI Name>
+    <Function>@LM3Sxxxx_ADC_Read_FN( @i1(0), @o1 );</Function>
+    <Feature>LM3Sxxxx_ADC_Functions</Feature>
+</VI Override>
+
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Init_Out</VI Name>
+    <Function>@LM3Sxxxx_PWM_Init_Out( @i5(0), @i4(0), @i3(20000), @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_Period</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_Period( @i2(0), @i1(2500) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_Width</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_Width( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_Duty</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_Duty( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_State</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_State( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Sync_Enable</VI Name>
+    <Function>@LM3Sxxxx_PWM_Sync_Enable( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Sync_Update</VI Name>
+    <Function>@LM3Sxxxx_PWM_Sync_Update( @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Fault_Enable</VI Name>
+    <Function>@LM3Sxxxx_PWM_Fault_Enable( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Invert_Enable</VI Name>
+    <Function>@LM3Sxxxx_PWM_Invert_Enable( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Debug_Stop</VI Name>
+    <Function>@LM3Sxxxx_PWM_Debug_Stop( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Fault_Status</VI Name>
+    <Function>@LM3Sxxxx_PWM_Fault_Status( @o1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_Dead_Band</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_Dead_Band( @i4(0), @i3(-1), @i2(-1), @i1(-1) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Sync_Time_Base</VI Name>
+    <Function>@LM3Sxxxx_PWM_Sync_Time_Base( @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>LM3Sxxxx_PWM_Set_Count_Mode</VI Name>
+    <Function>@LM3Sxxxx_PWM_Set_Count_Mode( @i2(0), @i1(0) );</Function>
+    <Feature>LM3Sxxxx_PWM_Functions</Feature>
+</VI Override>
+
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Init</VI Name>
+    <Function>@EKLM3S8962_Display_Init( @i1(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Set_Clip_Region</VI Name>
+    <Function>@EKLM3S8962_Display_Set_Clip_Region( @i1(0), @i2(0), @i3(127), @i4(95), @i5(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Set_Foreground</VI Name>
+    <Function>@EKLM3S8962_Display_Set_Foreground( @i2(15790320), @i1(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Set_Background</VI Name>
+    <Function>@EKLM3S8962_Display_Set_Background( @i2(0), @i1(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Draw_Pixel</VI Name>
+    <Function>@EKLM3S8962_Display_Draw_Pixel( @i4(0), @i3(0), @i1(0), @i2(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Draw_Circle</VI Name>
+    <Function>@EKLM3S8962_Display_Draw_Circle( @i6(0), @i5(0), @i4(0), @i1(0), @i2(0), @i3(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Draw_Line</VI Name>
+    <Function>@EKLM3S8962_Display_Draw_Line( @i1(0), @i3(0), @i4(0), @i5(0), @i2(0), @i6(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Draw_Rect</VI Name>
+    <Function>@EKLM3S8962_Display_Draw_Rect( @i1(0), @i4(0), @i5(0), @i6(0), @i3(0), @i2(0), @i7(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Draw_String</VI Name>
+    <Function>@EKLM3S8962_Display_Draw_String( @i1(0), @i5(0), @i6(0), @i3(0), @i4(0), @i2(0), @i7(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Get_String_Width</VI Name>
+    <Function>@EKLM3S8962_Display_Get_String_Width( @i2(0), @o2, @i1(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Update</VI Name>
+    <Function>@EKLM3S8962_Display_Update( @i1(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>EKLM3S8962_Display_Clear_Screen</VI Name>
+    <Function>@EKLM3S8962_Display_Clear_Screen( @i1(0), @i2(0), @o1 );</Function>
+    <Feature>EKLM3S8962_Display_Functions</Feature>
+</VI Override>
+
+<VI Override>
+    <VI Name>Get_PWM_Interrupt_Source</VI Name>
+    <Function>@*@o1 = ((@i1(0) &amp; 0xC) ? 0 : ((@i1(0) &amp; 0x30) ? 1 : ((@i1(0) &amp; 0x2) ? 2 : 3)));</Function>
+    <Feature>EKLM3S8962_Interrupt_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>Get_QEI_Interrupt_Source</VI Name>
+    <Function>@*@o1 = ((@i1(0) &amp; 0x1) ? 0 : ((@i1(0) &amp; 0x4) ? 1 : ((@i1(0) &amp; 0x2) ? 2 : 3)));</Function>
+    <Feature>EKLM3S8962_Interrupt_Functions</Feature>
+</VI Override>

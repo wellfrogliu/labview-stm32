@@ -1,0 +1,3501 @@
+<Target name="MCB2300" version="1.0.0">
+   <EIOItemTypeName>Elemental I/O</EIOItemTypeName>
+   <EIOItemIconName>Embedded\EmbEIO.png</EIOItemIconName>
+   <TargetDescription>Elemental I/O resources for the Keil MCB2300 EZ-KIT.</TargetDescription>
+   <EIOItemSelectResourceDialog><Remove/></EIOItemSelectResourceDialog>
+<EIODeviceEditorGlobalFlattenedData><Cluster>
+<Name>DeviceCreationInfo</Name>
+<NumElts>7</NumElts>
+<String>
+<Name>Device name</Name>
+<Val>MCB2300</Val>
+</String>
+<Array>
+<Name>EIO Classes</Name>
+<Dimsize>6</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>2</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>1</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>3</NumElts>
+<EW>
+<Name>EIO class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>5</Val>
+</EW>
+<Path>
+<Name>ConfigVI</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>ImplVI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+</Array>
+<Array>
+<Name>Pins</Name>
+<Dimsize>19</Dimsize>
+<String>
+<Name>Pin name</Name>
+<Val>P20</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P21</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P22</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P23</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P24</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P25</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P26</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P27</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P210</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P023</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P024</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P025</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P026</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P130</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P131</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P012</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P013</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>P026</Val>
+</String>
+<String>
+<Name>Pin name</Name>
+<Val>DIO_PORT0</Val>
+</String>
+</Array>
+<Array>
+<Name>Resources</Name>
+<Dimsize>25</Dimsize>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED0</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P20</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>0</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED1</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P21</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>1</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED2</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P22</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>2</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED3</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P23</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>3</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED4</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P24</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>4</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED5</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P25</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>5</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED6</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P26</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>6</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>LED7</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>3</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P27</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>7</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>INT0</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>2</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P210</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 Read INT0 Line.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 LED ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>8</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM1</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P20</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>9</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM2</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P21</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>10</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM3</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P22</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>11</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM4</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P23</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>12</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM5</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P24</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>13</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>PWM6</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>6</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P25</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 PWM ProjectAttrValidator.vi</Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>14</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI0</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>16</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI1</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>17</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI2</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>18</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI3</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI3 Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI3 Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>19</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI4</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>20</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI5</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>21</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI6</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>22</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AI7</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>0</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>0</Dimsize>
+<String>
+<Name>String</Name>
+<Val></Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>2</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</Val>
+</Path>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val>Targets\Keil\Embedded\RealView\Generic\LPC2378\eio\common\MCB2300 AI Specify Node.vi</Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>23</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>AOUT1</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>1</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>P026</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 AO Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>24</Val>
+</I32>
+</Cluster>
+<Cluster>
+<Name>Cluster</Name>
+<NumElts>8</NumElts>
+<String>
+<Name>Resource name</Name>
+<Val>DIO_PORT0</Val>
+</String>
+<EW>
+<Name>Resource class</Name>
+<Choice>AI</Choice>
+<Choice>AO</Choice>
+<Choice>DI</Choice>
+<Choice>DO</Choice>
+<Choice>DBI</Choice>
+<Choice>DBO</Choice>
+<Choice>PWMO</Choice>
+<Val>5</Val>
+</EW>
+<Array>
+<Name>Assigned pins</Name>
+<Dimsize>1</Dimsize>
+<String>
+<Name>String</Name>
+<Val>DIO_PORT0</Val>
+</String>
+</Array>
+<Cluster>
+<Name>Read Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Cluster>
+<Name>Write Method Attributes</Name>
+<NumElts>3</NumElts>
+<Array>
+<Name>IO Impl VIs</Name>
+<Dimsize>1</Dimsize>
+<Path>
+<Name>IO Implementation VI</Name>
+<Val>vi.lib\Embedded\ARM\MCB2300\MCB2300 PORT Write.vi</Val>
+</Path>
+</Array>
+<Path>
+<Name>Node Attr Validator</Name>
+<Val></Val>
+</Path>
+<Path>
+<Name>Data Type VI</Name>
+<Val></Val>
+</Path>
+</Cluster>
+<Array>
+<Name>Property Impl VIs</Name>
+<Dimsize>0</Dimsize>
+<Path>
+<Name>Path</Name>
+<Val></Val>
+</Path>
+</Array>
+<Path>
+<Name>Project Attr Validator</Name>
+<Val></Val>
+</Path>
+<I32>
+<Name>Channel Number</Name>
+<Val>25</Val>
+</I32>
+</Cluster>
+</Array>
+<Array>
+<Name>Selected Target Positions</Name>
+<Dimsize>0</Dimsize>
+<I32>
+<Name>Numeric</Name>
+<Val></Val>
+</I32>
+</Array>
+<Path>
+<Name>Target Path</Name>
+<Val>Targets\Keil\Embedded\RealView\MCB2300\eio\default</Val>
+</Path>
+<String>
+<Name>Device Description</Name>
+<Val>MCB2300 EZ-KIT</Val>
+</String>
+</Cluster>
+</EIODeviceEditorGlobalFlattenedData>
+
+   <Connector name="pins">
+      <Pin name="P20"/>
+      <Pin name="P21"/>
+      <Pin name="P22"/>
+      <Pin name="P23"/>
+      <Pin name="P24"/>
+      <Pin name="P25"/>
+      <Pin name="P26"/>
+      <Pin name="P27"/>
+      <Pin name="P210"/>
+      <Pin name="P026"/>
+      <Pin name="DIO_PORT0"/>
+   </Connector>
+
+   <IOResource names="LED0">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>0</IOChannelNum>
+
+      <Reserves>../pins/P20</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED1">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>1</IOChannelNum>
+
+      <Reserves>../pins/P21</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED2">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>2</IOChannelNum>
+
+      <Reserves>../pins/P22</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED3">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>3</IOChannelNum>
+
+      <Reserves>../pins/P23</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED4">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>4</IOChannelNum>
+
+      <Reserves>../pins/P24</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED5">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>5</IOChannelNum>
+
+      <Reserves>../pins/P25</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED6">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>6</IOChannelNum>
+
+      <Reserves>../pins/P26</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="LED7">
+      <SelectionListType>Digital Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>7</IOChannelNum>
+
+      <Reserves>../pins/P27</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_0.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_0.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 LED Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="INT0">
+      <SelectionListType>Digital Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>8</IOChannelNum>
+
+      <Reserves>../pins/P210</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_1.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Read_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 Read INT0 Line.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM1">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>9</IOChannelNum>
+
+      <Reserves>../pins/P20</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM2">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>10</IOChannelNum>
+
+      <Reserves>../pins/P21</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM3">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>11</IOChannelNum>
+
+      <Reserves>../pins/P22</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM4">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>12</IOChannelNum>
+
+      <Reserves>../pins/P23</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM5">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>13</IOChannelNum>
+
+      <Reserves>../pins/P24</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="PWM6">
+      <SelectionListType>PWM Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>14</IOChannelNum>
+
+      <Reserves>../pins/P25</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_2.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_2.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PWM.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI0">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>16</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI1">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>17</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI2">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>18</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI3">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>19</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_3.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_4.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI3 Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI3 Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI4">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>20</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI5">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>21</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI6">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>22</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AI7">
+      <SelectionListType>Analog Input</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>23</IOChannelNum>
+
+      <Reserves></Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Read">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_3.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOSpecifyNode_0.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Raw.vi</IOImplementationVI_0> 
+            <IOImplementationVI_1 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AI Read Channel Scaled.vi</IOImplementationVI_1>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIONodeSubPanel_0.vi</VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="AOUT1">
+      <SelectionListType>Analog Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>24</IOChannelNum>
+
+      <Reserves>../pins/P026</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>       
+         <SubpanelList>
+            <Subpanel name="I/O Configuration">
+               <VIPath type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOPrjSubPanel_3.vi</VIPath>
+               <Help>
+                  <Path>help/lvembdialog.chm</Path>
+                  <Topic>emb_eio_projprop.html</Topic>
+               </Help>
+            </Subpanel>
+         </SubpanelList>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_5.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_6.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 AO Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResource names="DIO_PORT0">
+      <SelectionListType>Digital Bank Output</SelectionListType>
+	    <TargetGUIDPlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_GetTargetGUID_0.vi</TargetGUIDPlugin>
+      <IOChannelNum>25</IOChannelNum>
+
+      <Reserves>../pins/DIO_PORT0</Reserves>
+      <AttributeSet>
+         <Attribute name="AttributeHolder"></Attribute>
+      </AttributeSet>
+      <MethodSet>
+         <Method name="Write">
+            <Scripter type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_EIOScriptNode_1.vi</Scripter>
+            <SpecifyNodePlugin type="path">Targets\Keil\Embedded\RealView\MCB2300\eio\default\MCB2300_DefaultSpecifyNode_Write_2.vi</SpecifyNodePlugin> 
+            <IOImplementationVI_0 type="path">vi.lib\Embedded\ARM\MCB2300\MCB2300 PORT Write.vi</IOImplementationVI_0>
+            <AttributeSet>
+               <Attribute name="AttributeHolder"/>
+               <SubpanelList>
+                  <Subpanel name="I/O Node Configuration">
+                     <VIPath type="path"></VIPath>
+                     <Help>
+                        <Path>help/lvembdialog.chm</Path>
+                        <Topic>emb_eio_nodeprop.html</Topic>
+                     </Help>
+                  </Subpanel>
+               </SubpanelList>
+            </AttributeSet>
+         </Method>
+      </MethodSet>
+      <PropertySet>
+      </PropertySet>
+      <Help>
+         <Path>help/lvarmhelp.chm</Path>
+         <Topic>arm_eio_configuring_items.html</Topic>
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResource>
+
+   <IOResourceDefault>
+      <!-- Used for Item context and popup help if no resource specific help found -->
+      <Help>
+         <!-- Used to open topic help for EIO
+         <Path>help/lvembhelp.chm</Path>
+         <Topic>eio.html</Topic>
+         -->
+         <LocalizedContext>Accesses the I/O resource on the target. Drag an Elemental I/O item from the &lt;B&gt;Project Explorer&lt;/B&gt; window to the block diagram to create a new Elemental I/O Node that contains theElemental I/O item.</LocalizedContext>
+      </Help>    
+   </IOResourceDefault>
+
+   <EIONewItemDialog>
+      <Help>
+         <Path>help/lvembdialog.chm</Path>
+         <Topic>emb_eio_new.html</Topic>
+      </Help>
+   </EIONewItemDialog>
+
+   <EIOItemGeneralSubpanel>
+      <Help>
+         <Path>help/lvembdialog.chm</Path>
+         <Topic>emb_eio_projprop.html</Topic>
+      </Help>
+   </EIOItemGeneralSubpanel>
+
+   <EIOHelpInfo>
+      <IONode>
+         <Description>Performs specific I/O operations on embedded targets. You must select the I/O items you want to use by right-clicking the Elemental I/O Node on the block diagram and selecting &lt;B&gt;Select Elemental I/O&lt;/B&gt; from the shortcut menu. The &lt;B&gt;Select Elemental I/O&lt;/B&gt; submenu displays the Elemental I/O items that appear in the &lt;B&gt;Project Explorer&lt;/B&gt; window below the same embedded target as the embedded VI you are currently editing.</Description>
+         <Path>help/lvarm.chm</Path>
+         <Tag>arm_EIO_Node.html</Tag>
+      </IONode>
+      <Property>
+         <Description>Gets or sets one or more properties on an I/O item under an embedded target in the &lt;B&gt;Project Explorer&lt;/B&gt; window. The I/O resources available and the associated properties vary by embedded target.</Description>
+         <Path>help/lvarm.chm</Path>
+         <Tag>arm_EIO_Property_Node.html</Tag>
+      </Property>
+   </EIOHelpInfo>
+
+   <EIOItemSelectResourceDialog> 
+      <Help> 
+         <Path>help/lvembdialog.chm</Path> 
+         <Topic>emb_eio_select_res_db.html</Topic> 
+      </Help> 
+   </EIOItemSelectResourceDialog>
+
+</Target>

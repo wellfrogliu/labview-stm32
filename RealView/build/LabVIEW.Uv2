@@ -1,0 +1,194 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+
+Group (blockdiagram)
+Group (comms)
+Group (frontpanel)
+Group (os)
+
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVCGenRTInit.c><LVCGenRTInit.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGStrSupport.c><CCGStrSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGIntSupport.c><CCGIntSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGFltSupport.c><CCGFltSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVBlockDiagram.c><LVBlockDiagram.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVContext.c><LVContext.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVHeap.c><LVHeap.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGClusterSupport.c><CCGClusterSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGArrSupport.c><CCGArrSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGArrSupport2.c><CCGArrSupport2.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGArrSupport3.c><CCGArrSupport3.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\NumText.c><NumText.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\ViLib.c><ViLib.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGEnumSupport.c><CCGEnumSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGCmplxSupport.c><CCGCmplxSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGSemaphore.c><CCGSemaphore.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGNotifier.c><CCGNotifier.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGQueue.c><CCGQueue.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\ExecStack.c><ExecStack.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGTimeSupport.c><CCGTimeSupport.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGTokString.c><CCGTokString.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\CCGVariant.c><CCGVariant.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\DebugUtil.c><DebugUtil.c> 0x45DDB17A 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVISR.c><LVISR.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVCGenScratchPad.c><LVCGenScratchPad.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVEvents.c><LVEvents.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\nbfifo_inst.c><nbfifo_inst.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVTdp.c><LVTdp.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\LVTLExtSource.c><LVTLExtSource.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\MemCheck.c><MemCheck.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\nbemptybin.c><nbemptybin.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\nbfifo.c><nbfifo.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\uScheduler.c><uScheduler.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\nbitemtable.c><nbitemtable.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\ObjList.c><ObjList.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\occur.c><occur.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\reentrant.c><reentrant.c> 0x45DDB17C 
+File 1,1,<..\..\..\..\..\CCodeGen\libsrc\blockdiagram\rtmath.c><rtmath.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGAppRefSupport.c><CCGAppRefSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGBtMgr.c><CCGBtMgr.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGBtSupport.c><CCGBtSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGByteStreamFileSupport.c><CCGByteStreamFileSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGDatalogSupport.c><CCGDatalogSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGFileSupport2.c><CCGFileSupport2.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGFileSupport.c><CCGFileSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGIrDASupport.c><CCGIrDASupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGMachineAlias.c><CCGMachineAlias.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGNetConnRefNum.c><CCGNetConnRefNum.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGSerial.c><CCGSerial.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGUUID.c><CCGUUID.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\CCGVIRefSupport.c><CCGVIRefSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\crc.c><crc.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\Debug.c><Debug.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\DebugComm.c><DebugComm.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\ExchangeMgr.c><ExchangeMgr.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\FileRefNum.c><FileRefNum.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\LVNetworkVarSupport.c><LVNetworkVarSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\LVPhoneSupport.c><LVPhoneSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\LVSMSSupport.c><LVSMSSupport.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\OCDICheckPoint.c><OCDICheckPoint.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\SerialMessaging.c><SerialMessaging.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\TCPMessaging.c><TCPMessaging.c> 0x45DDB17C 
+File 2,1,<..\..\..\..\..\CCodeGen\libsrc\comms\VisaIntfc.c><VisaIntfc.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVFrontPanel.c><LVFrontPanel.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\CCGChartGraphSupp.c><CCGChartGraphSupp.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVArrayControl.c><LVArrayControl.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVBoolean.c><LVBoolean.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVChart.c><LVChart.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVClusterControl.c><LVClusterControl.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVEnumCtl.c><LVEnumCtl.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVGraph.c><LVGraph.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVListbox.c><LVListbox.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVNumeric.c><LVNumeric.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVRing.c><LVRing.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVString.c><LVString.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVTab.c><LVTab.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVTable.c><LVTable.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVTimestamp.c><LVTimestamp.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\LVTree.c><LVTree.c> 0x45DDB17C 
+File 3,1,<..\..\..\..\..\CCodeGen\libsrc\frontpanel\Pict.c><Pict.c> 0x45DDB17C 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\common\Headless.c><Headless.c> 0x45DDB17C 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGStrSupport_rtx.c><CCGStrSupport_rtx.c> 0x460CFFC5 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\common\PosixFiles.c><PosixFiles.c> 0x45DDB17C 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGWinsock_rtx.c><CCGWinsock_rtx.c> 0x4619F1F6 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGNetConnSupport_rtx.c><CCGNetConnSupport_rtx.c> 0x4619F3FA 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGTcpUdpSupport_rtx.c><CCGTcpUdpSupport_rtx.c> 0x4619F456 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\LVCritSect.c><LVCritSect.c> 0x461A3262 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\LVEvent.c><LVEvent.c> 0x461A386C 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\LVNBOps.c><LVNBOps.c> 0x461A3B94 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGTimeSupport_rtx.c><CCGTimeSupport_rtx.c> 0x465D9D83 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\OEM_LVISR.c><OEM_LVISR.c> 0x463EC8CF 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\LVThreads.c><LVThreads.c> 0x465D9D92 
+File 4,1,<..\..\..\..\..\CCodeGen\libsrc\os\rtx\CCGSemaphore_rtx.c><CCGSemaphore_rtx.c> 0x465D9D7B 
+
+
+Options 1,0,0  // Target 'Target 1'
+ Device (LPC2378)
+ Vendor (NXP (founded by Philips))
+ Cpu (IRAM(0x40000000-0x40007FFF) IRAM2(0x7FE00000-0x7FE037FF) IROM(0-0x7FFFF) CLOCK(12000000) CPUTYPE(ARM7TDMI))
+ FlashUt (LPC210x_ISP.EXE ("#H" ^X $D COM1: 38400 1))
+ StupF ("STARTUP\Philips\LPC2300.s" ("Philips LPC2300 Startup Code"))
+ FlashDR (UL2ARM(-U268761108 -O7 -S0 -C0 -FO15 -FD40000000 -FC800 -FN1 -FF0LPC_IAP2_512 -FS00 -FL07D000))
+ DevID (4153)
+ Rgf (LPC23xx.H)
+ Mem ()
+ C ()
+ A ()
+ RL ()
+ OH ()
+ DBC_IFX ()
+ DBC_CMS ()
+ DBC_AMS ()
+ DBC_LMS ()
+ UseEnv=0
+ EnvBin ()
+ EnvInc ()
+ EnvLib ()
+ EnvReg (ÿPhilips\)
+ OrgReg (ÿPhilips\)
+ TgStat=16
+ OutDir (.\)
+ OutName (LabVIEW)
+ GenApp=0
+ GenLib=1
+ GenHex=0
+ Debug=1
+ Browse=1
+ LstDir (.\)
+ HexSel=1
+ MG32K=0
+ TGMORE=0
+ RunUsr 0 0 <>
+ RunUsr 1 0 <>
+ BrunUsr 0 0 <>
+ BrunUsr 1 0 <>
+ CrunUsr 0 0 <>
+ CrunUsr 1 0 <>
+ SVCSID <>
+ GLFLAGS=1790
+ ADSFLGA { 243,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ACPUTYP (ARM7TDMI)
+ ADSTFLGA { 0,12,16,2,99,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSOCM { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ OCMADSIRAM { 0,0,0,0,64,0,128,0,0 }
+ OCMADSIROM { 1,0,0,0,0,0,0,8,0 }
+ OCMADSXRAM { 0,0,0,0,0,0,0,0,0 }
+ OCR_RVCT { 1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,128,0,0,0,0,0,224,127,0,56,0,0 }
+ RV_STAVEC ()
+ ADSCCFLG { 5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSCMISC (--diag_remark 1295,66)
+ ADSCDEFN (CHeadless,_LIB,_Include_Scheduler,_Include_OSScheduler)
+ ADSCUDEF ()
+ ADSCINCD (..\..\..\..\..\CCodeGen\include\blockdiagram;..\..\..\..\..\CCodeGen\include\comms;..\..\..\..\..\CCodeGen\include\frontpanel;..\..\..\..\..\CCodeGen\include\os\rtx;..\..\..\..\..\CCodeGen\include\priv;..\..\..\..\..\CCodeGen\include\UI)
+ ADSASFLG { 1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSAMISC ()
+ ADSADEFN ()
+ ADSAUDEF ()
+ ADSAINCD ()
+ PropFld { 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ IncBld=1
+ AlwaysBuild=0
+ GenAsm=0
+ AsmAsm=0
+ PublicsOnly=0
+ StopCode=3
+ CustArgs ()
+ LibMods ()
+ ADSLDFG { 17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0 }
+ ADSLDTA (0x00000000)
+ ADSLDDA (0x40000000)
+ ADSLDSC ()
+ ADSLDIB ()
+ ADSLDIC ()
+ ADSLDMC ()
+ ADSLDIF ()
+ ADSLDDW ()
+  OPTDL (SARM.DLL)(-cLPC2100)(DARMP.DLL)(-pLPC2378)(SARM.DLL)()(TARMP.DLL)(-pLPC2378)
+  OPTDBG 48125,-1,()()()()()()()()()() ()()()()
+ FLASH1 { 2,0,0,0,0,0,0,0,255,255,255,255,0,0,0,0,0,0,0,0 }
+ FLASH2 ()
+ FLASH3 (LPC210x_ISP.EXE ("#H" ^X $D COM1: 38400 1))
+ FLASH4 ()
+EndOpt
+

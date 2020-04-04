@@ -1,0 +1,45 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(Source),1,0,0
+
+OPTFFF 1,1,1,0,0,0,0,0,<..\lib\LCD.c><LCD.c> 
+OPTFFF 1,2,1,402653184,0,0,0,0,<..\lib\MCB2300_AI.c><MCB2300_AI.c> 
+OPTFFF 1,3,1,0,0,0,0,0,<..\lib\MCB2300_AO.c><MCB2300_AO.c> 
+OPTFFF 1,4,1,0,0,0,0,0,<..\lib\MCB2300_Button.c><MCB2300_Button.c> 
+OPTFFF 1,5,1,0,0,0,0,0,<..\lib\MCB2300_DIO.c><MCB2300_DIO.c> 
+OPTFFF 1,6,1,0,0,0,0,0,<..\lib\MCB2300_LCD.c><MCB2300_LCD.c> 
+OPTFFF 1,7,1,0,0,0,0,0,<..\lib\MCB2300_LED.c><MCB2300_LED.c> 
+OPTFFF 1,8,1,0,0,0,0,0,<..\lib\MCB2300_PWM.c><MCB2300_PWM.c> 
+
+
+TARGOPT 1, (Target 1)
+ ADSCLK=12000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 0
+  OPTBL 0,(Data Sheet)<DATASHTS\PHILIPS\LPC2378_DS.PDF>
+  OPTBL 1,(User Manual)<DATASHTS\PHILIPS\LPC23xx_UM.pdf>
+  OPTDL (SARM.DLL)(-cLPC237x)(DARMP.DLL)(-pLPC2378)(SARM.DLL)()(TARMP.DLL)(-pLPC2378)
+  OPTDBG 48125,0,()()()()()()()()()() (BIN\UL2ARM.DLL)()()()
+  OPTKEY 0,(UL2ARM)(-U268761108 -O7 -S0 -C0 -FO15 -FD40000000 -FC800 -FN1 -FF0LPC_IAP2_512 -FS00 -FL07D000)
+  OPTDF 0x2
+  OPTLE <>
+  OPTLC <>
+EndOpt
+

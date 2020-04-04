@@ -1,0 +1,110 @@
+<VI Override>
+    <VI Name>ARM_CAN_Open</VI Name>
+    <Function>@RLARM_CAN_Open( @i3(1), @o3(0), @i2(500000), @o2(0), @i1(0), @o1(0) );</Function>
+    <Feature>RLARM_CAN_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_CAN_Start</VI Name>
+    <Function>@RLARM_CAN_Start( @i2(1), @o2(0), @i1(0), @o1(0) );</Function>
+    <Feature>RLARM_CAN_Functions</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_CAN_Read</VI Name>
+    <Function>{static uInt32 nStartMs = 0L; static Boolean bFirstRun = TRUE; %s = RLARM_CAN_Read((ArgList *)((ArgList **)%s)[0], (ArgList *)((ArgList **)%s)[1], &amp;nStartMs, &amp;bFirstRun, (Boolean)(bRunToFinish &amp;&amp; nReady &lt; 2));}</Function>
+    <Feature>RLARM_CAN_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_CAN_Write</VI Name>
+    <Function>{static uInt32 nStartMs = 0L; static Boolean bFirstRun = TRUE; %s = RLARM_CAN_Write((ArgList *)((ArgList **)%s)[0], (ArgList *)((ArgList **)%s)[1], &amp;nStartMs, &amp;bFirstRun, (Boolean)(bRunToFinish &amp;&amp; nReady &lt; 2));}</Function>
+    <Feature>RLARM_CAN_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_CAN_Set_Receive_ID</VI Name>
+    <Function>@RLARM_CAN_Set_Receive_ID( @i5(1), @o2(0), @i4(0), @i3(0), @i1(0), @i2(0), @o1(0) );</Function>
+    <Feature>RLARM_CAN_Functions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>Console_Output</VI Name>
+	<Function>@LVConsoleOutput( @i1(NULL) );</Function>
+	<Feature>LVConsoleOutput</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_I2C_Create_Configuration_Reference</VI Name>
+    <Function>@ARM_I2C_CreateConfigurationReferenceW( @i4(0), @i3(0), @i2(100), @i1(0), (void**)@o2, @o1(NULL));</Function>
+    <Feature>ARM_I2C_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_I2C_Write_Read</VI Name>
+    <Function>@ARM_I2C_WriteReadW( (void*)@i4(0), (VoidHand)@i3(0), @i2(0), @i1(0), (VoidHand*)@o2, (void**)@o3, @o1(NULL));</Function>
+    <Feature>ARM_I2C_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_I2C_Close_Reference</VI Name>
+    <Function>@ARM_I2C_CloseReferenceW( (void*)@i2(0), @i1(0), @o1(NULL));</Function>
+    <Feature>ARM_I2C_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_SPI_Create_Configuration_Reference</VI Name>
+    <Function>@ARM_SPI_CreateConfigurationReferenceW( @i5(0), @i4(1000), @i3(0), @i1(0), @i2(0), (void**)@o2, @o1(NULL));</Function>
+    <Feature>ARM_SPI_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_SPI_Write_Read</VI Name>
+    <Function>@ARM_SPI_WriteReadW( (void*)@i4(0), (VoidHand)@i3(0), @i2(0), @i1(0), (VoidHand*)@o2, (void**)@o3, @o1(NULL));</Function>
+    <Feature>ARM_SPI_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_SPI_Close_Reference</VI Name>
+    <Function>@ARM_SPI_CloseReferenceW( (void*)@i2(0), @i1(0), @o1(NULL));</Function>
+    <Feature>ARM_SPI_Functions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_Interrupt_Disable</VI Name>
+    <Function>@ARM_ISR_Interrupt_Disable(@i2(0), @i1(0), @o1);</Function>
+    <Feature>LVISRSupport</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_Interrupt_Enable</VI Name>
+    <Function>@ARM_ISR_Interrupt_Enable(@i2(0), @i1(0), @o1);</Function>
+    <Feature>LVISRSupport</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_Global_Interrupt_Disable</VI Name>
+    <Function>@ARM_ISR_Global_Interrupt_Disable(@i1(0), @o1);</Function>
+    <Feature>LVISRSupport</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_Global_Interrupt_Enable</VI Name>
+    <Function>@ARM_ISR_Global_Interrupt_Enable(@i1(0), @o1);</Function>
+    <Feature>LVISRSupport</Feature>
+</VI Override>
+<VI Override>
+    <VI Name>ARM_Send_Profile_Data</VI Name>
+    <Function>@LV_profile_fini();</Function>
+    <Feature>LV_PROFILE_FINI</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>ARM_Peripheral_Enable</VI Name>
+	<Function>@ARM_Peripheral_Enable(@i2(0), @i1(0), @o1(NULL));</Function>
+	<Feature>ARM_Peripheral_Enable</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>ARM_Peripheral_Disable</VI Name>
+	<Function>@ARM_Peripheral_Disable(@i2(0), @i1(0), @o1(NULL));</Function>
+	<Feature>ARM_Peripheral_Disable</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>ARM_Peripheral_Enable_All</VI Name>
+	<Function>@ARM_Peripheral_Enable_All(@i1(0), @o1(NULL));</Function>
+	<Feature>ARM_Peripheral_Enable_All</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>ARM_Peripheral_Disable_All</VI Name>
+	<Function>@ARM_Peripheral_Disable_All(@i1(0), @o1(NULL));</Function>
+	<Feature>ARM_Peripheral_Disable_All</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>ARM_Tick_Count</VI Name>
+	<Function>@*@o1 = LVGetTicksExt(1);</Function>
+	<Feature>LVGetTicksExt</Feature>
+</VI Override>

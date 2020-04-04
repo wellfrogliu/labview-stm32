@@ -1,0 +1,95 @@
+<VI Override>
+	<VI Name>MCB2400_Turn_On_LED</VI Name>
+	<Function>@MCB2400_LEDOn( @i2(NULL), @i1(0), @o1);</Function>
+	<Feature>MCB2400_LEDFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_Turn_Off_LED</VI Name>
+	<Function>@MCB2400_LEDOff( @i2(0), @i1(0), @o1);</Function>
+	<Feature>MCB2400_LEDFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_Set_LEDs</VI Name>
+	<Function>@MCB2400_LEDSet( @i2(0), @i1(0), @o1);</Function>
+	<Feature>MCB2400_LEDFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_Is_Button_Pressed</VI Name>
+	<Function>@MCB2400_IsButtonPressed( @i1(0), @o1, @i2(0), @o2);</Function>
+	<Feature>MCB2400_ButtonFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_Buttons_Pressed</VI Name>
+	<Function>@MCB2400_ButtonsPressed( @i1(0), @o1, @o2);</Function>
+	<Feature>MCB2400_ButtonFunctions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalInput</VI Name>
+	<Function>@MCB2400_DigitalInput( @i1(0), @o1, @i3(0), @i2(0), @o2);</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortInput8</VI Name>
+	<Function>@MCB2400_DigitalPortInput8( @i1(0), @o1, @i3(0), @i2(0), @o2);</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortInput16</VI Name>
+	<Function>@MCB2400_DigitalPortInput16( @i1(0), @o1, @i3(0), @i2(0), @o2);</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortInput32</VI Name>
+	<Function>@MCB2400_DigitalPortInput32( @i1(0), @o1, @i2(0), @o2);</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalOutput</VI Name>
+	<Function>@MCB2400_DigitalOutput( @i1(0), @o1, @i4(0), @i3(0), @i2(0));</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortOutput8</VI Name>
+	<Function>@MCB2400_DigitalPortOutput8( @i1(0), @o1, @i4(0), @i3(0), @i2(0));</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortOutput16</VI Name>
+	<Function>@MCB2400_DigitalPortOutput16( @i1(0), @o1, @i4(0), @i3(0), @i2(0));</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_DigitalPortOutput32</VI Name>
+	<Function>@MCB2400_DigitalPortOutput32( @i1(0), @o1, @i3(0), @i2(0));</Function>
+	<Feature>MCB2400_DIOFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_PWMInit</VI Name>
+	<Function>@MCB2400_PWMInit( @i1(0), @i3(0), @i2(0), @o1);</Function>
+	<Feature>MCB2400_PWMFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_PWMOut</VI Name>
+	<Function>@MCB2400_PWMOut( @i1(0), @i7(0), @i6(0), @i5(0), @i3(0), @i2(0), @i4(0), @o1);</Function>
+	<Feature>MCB2400_PWMFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_AIInit</VI Name>
+	<Function>@MCB2400_AIInit( @i1(0), @i2(1), @o1);</Function>
+	<Feature>MCB2400_AIFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_AnalogIn</VI Name>
+	<Function>@MCB2400_AnalogIn( @i2(0), @i1(0), @o3, @o2, @o1);</Function>
+	<Feature>MCB2400_AIFunctions</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_AnalogInScan</VI Name>
+	<Function>@MCB2400_AnalogInScan( @i1(0), @o3, @o2, @o1);</Function>
+	<Feature>MCB2400_AIFunctions Array_Utils</Feature>
+</VI Override>
+<VI Override>
+	<VI Name>MCB2400_AnalogOut</VI Name>
+	<Function>@MCB2400_AnalogOut( @i2(0), @i1(0), @o1);</Function>
+	<Feature>MCB2400_AOFunctions</Feature>
+</VI Override>
